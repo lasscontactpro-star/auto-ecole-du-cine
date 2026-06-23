@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
     const resend = new Resend(apiKey);
 
     await resend.emails.send({
-      from: "site@auto-ecole-cine-evreux.fr",
+      from: "Auto École du Ciné <onboarding@resend.dev>",
       to: toEmail,
       subject: `Nouveau message de ${nom}${objet ? ` — ${objet}` : ""}`,
       html: `
