@@ -7,6 +7,7 @@ import Image from "next/image";
 interface FormData {
   nom: string;
   telephone: string;
+  email?: string;
   objet: string;
   message: string;
 }
@@ -98,6 +99,15 @@ export default function ContactPage() {
                       placeholder="06 XX XX XX XX"
                     />
                     {errors.telephone && <p className="text-[#E91E8C] text-xs mt-1">{errors.telephone.message}</p>}
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-[#2D2D2D] mb-1.5">Email <span className="text-gray-400 font-normal">(optionnel)</span></label>
+                    <input
+                      {...register("email")}
+                      type="email"
+                      className="w-full border border-gray-200 rounded-xl px-4 py-3 text-[#2D2D2D] focus:outline-none focus:border-[#E91E8C] transition-colors"
+                      placeholder="votre@email.fr"
+                    />
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-[#2D2D2D] mb-1.5">Objet</label>

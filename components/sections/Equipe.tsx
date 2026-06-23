@@ -15,7 +15,7 @@ export default function Equipe() {
           <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
             <Image
               src="/photos/20250417_135707.jpg"
-              alt="Équipe Auto École du Ciné Évreux — Ema et ses moniteurs"
+              alt="Équipe Auto École du Ciné Évreux — Emmanuelle et ses moniteurs"
               fill
               className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"

@@ -6,6 +6,7 @@ import { useState } from "react";
 interface FormData {
   nom: string;
   telephone: string;
+  email?: string;
   message: string;
 }
 
@@ -61,6 +62,15 @@ export default function ContactRapide() {
                     placeholder="06 XX XX XX XX"
                   />
                   {errors.telephone && <p className="text-[#E91E8C] text-xs mt-1">{errors.telephone.message}</p>}
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-300 mb-1.5">Email <span className="text-white/40">(optionnel)</span></label>
+                  <input
+                    {...register("email")}
+                    type="email"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:border-[#E91E8C] transition-colors"
+                    placeholder="votre@email.fr"
+                  />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-1.5">Message *</label>
