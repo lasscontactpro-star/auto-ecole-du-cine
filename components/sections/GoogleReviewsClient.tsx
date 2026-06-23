@@ -41,12 +41,6 @@ export function GoogleReviewsClient({
 }) {
   return (
     <div>
-      {isPlaceholder && (
-        <p className="text-center text-xs text-gray-400 mb-6">
-          Avis Google en temps réel disponibles après configuration de{" "}
-          <code className="bg-gray-100 px-1 rounded">GOOGLE_PLACES_API_KEY</code> dans Vercel.
-        </p>
-      )}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {reviews.slice(0, 6).map((review, i) => (
           <div
