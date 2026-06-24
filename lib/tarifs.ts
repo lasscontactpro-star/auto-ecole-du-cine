@@ -2,6 +2,7 @@ export interface TarifItem {
   heures: string;
   prix: number;
   label?: string;
+  note?: string;
 }
 
 export const tarifPermisB: TarifItem[] = [
