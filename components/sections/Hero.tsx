@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 bg-[#E91E8C]/20 backdrop-blur-sm border border-[#E91E8C]/40 rounded-full px-4 py-1.5 mb-6">
             <span className="w-2 h-2 rounded-full bg-[#E91E8C] animate-pulse" />
-            <span className="text-white text-sm font-medium">CPF accepté · Dès 15 ans</span>
+            <span className="text-white text-sm font-medium">CPF dès 16 ans · AAC dès 15 ans</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6">
