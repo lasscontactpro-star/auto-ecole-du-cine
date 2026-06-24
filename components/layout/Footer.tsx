@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <Image
-            src="/photos/auto-ecole-du-cine-evreux-logo.jpg"
+            src="/photos/logo-detoure.png"
             alt="Auto École du Ciné Évreux"
             width={160}
-            height={55}
-            className="h-12 w-auto object-contain brightness-0 invert mb-4"
+            height={80}
+            className="h-16 w-auto object-contain mb-4"
           />
           <p className="text-sm text-gray-400 leading-relaxed">
             28 rue de l'Horloge<br />
