@@ -117,7 +117,7 @@ export default function FormulesPage() {
                       <tr key={i} className="border-t border-gray-100">
                         <td className="px-5 py-3.5">
                           <p className="font-semibold text-[#2D2D2D]">{t.label}</p>
-                          <p className="text-xs text-gray-400">{t.heures}</p>
+                          <p className="text-xs text-gray-400">{t.heures}{t.note ? ` — ${t.note}` : ""}</p>
                         </td>
                         <td className="px-5 py-3.5 text-right font-bold text-[#E91E8C]">{t.prix}€</td>
                       </tr>

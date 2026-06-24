@@ -22,7 +22,7 @@ export const tarifAAC: TarifItem[] = [
 
 export const tarifSpeciaux: TarifItem[] = [
   { heures: "7h", prix: 500, label: "Passerelle boîte auto → manuelle" },
-  { heures: "5h", prix: 500, label: "Forfait perfectionnement / annulation" },
+  { heures: "5h", prix: 500, label: "Forfait annulation", note: "Selon les disponibilités de l'auto-école" },
 ];
 
 export const inclus = [
