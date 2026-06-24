@@ -2,7 +2,7 @@ const stats = [
   { value: "4 + 3", label: "Véhicules", sub: "4 boîtes manuelles · 3 boîtes auto" },
   { value: "Dès 15 ans", label: "Conduite accompagnée", sub: "AAC disponible" },
   { value: "CPF", label: "Financement accepté", sub: "Permis 1€ aussi" },
-  { value: "02 32 39 26 98", label: "Appelez-nous", sub: "Lun–Sam" },
+  { value: "02 32 39 26 98", label: "Appelez-nous", sub: "Mar–Sam" },
 ];
 
 export default function ChiffresKeys() {
