@@ -3,12 +3,12 @@ import ContactRapide from "@/components/sections/ContactRapide";
 import LiensUtiles from "@/components/sections/LiensUtiles";
 
 export const metadata: Metadata = {
-  title: "Financement Permis CPF, Permis 1€, Pôle Emploi",
+  title: "Financement Permis CPF, Permis 1€, France Travail",
   description:
-    "Financer votre permis à Évreux : CPF, Permis 1€/jour (15-25 ans), paiement 4x sans frais, aide Pôle Emploi. Auto École du Ciné Évreux — 02 32 39 26 98.",
+    "Financer votre permis à Évreux : CPF, Permis 1€/jour (15-25 ans), paiement 4x sans frais, aide France Travail. Auto École du Ciné Évreux — 02 32 39 26 98.",
   openGraph: {
     title: "Financement Permis — Auto École du Ciné Évreux",
-    description: "CPF, Permis 1€, Pôle Emploi, paiement 4x. Votre permis peut vous coûter 0€.",
+    description: "CPF, Permis 1€, France Travail, paiement 4x. Votre permis peut vous coûter 0€.",
   },
 };
 
@@ -63,7 +63,7 @@ const modes = [
   {
     icon: "🏢",
     badge: "Demandeurs d'emploi",
-    title: "Aide Pôle Emploi / France Travail",
+    title: "Aide France Travail / France Travail",
     desc: "Si vous êtes inscrit à France Travail, des aides spécifiques au financement du permis existent pour favoriser votre retour à l'emploi.",
     eligibilite: "Inscrits à France Travail",
     lien: null,
@@ -84,7 +84,7 @@ export default function FinancementPage() {
             Plusieurs dispositifs existent pour financer votre permis de conduire. Nous vous accompagnons dans toutes les démarches.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            {["CPF", "Permis 1€/jour", "Paiement 4x", "Pôle Emploi"].map((m) => (
+            {["CPF", "Permis 1€/jour", "Paiement 4x", "France Travail"].map((m) => (
               <span key={m} className="bg-white/20 backdrop-blur-sm text-white font-semibold px-4 py-2 rounded-full text-sm">
                 {m}
               </span>

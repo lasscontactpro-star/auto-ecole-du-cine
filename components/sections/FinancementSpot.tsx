@@ -18,7 +18,7 @@ const modes = [
   },
   {
     icon: "🏢",
-    title: "Pôle Emploi",
+    title: "France Travail",
     desc: "Aide pour demandeurs d'emploi",
   },
 ];
