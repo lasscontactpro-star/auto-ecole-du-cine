@@ -90,8 +90,8 @@ export default function Footer() {
           </div>
           <div className="mt-6 text-xs text-gray-500 space-y-1">
             <p>Lundi–Vendredi : 9h–19h (conduite)</p>
-            <p>Mardi–Vendredi : 10h–12h / 14h–18h (bureau)</p>
-            <p>Samedi : 9h–17h (conduite) / 14h–17h (bureau)</p>
+            <p>Mardi–Vendredi : 10h–12h / 14h–18h (bureau & code)</p>
+            <p>Samedi : 9h–17h (conduite) / 14h–17h (bureau & code)</p>
           </div>
         </div>
       </div>
