@@ -47,7 +47,7 @@ export const faqs = [
   {
     question: "Combien coûte le permis de conduire à Évreux ?",
     answer:
-      "Nos formules débutent à 1 050€ pour 13h de conduite (code non inclus). Avec code, comptez 1 150€. Nous proposons également des forfaits de 20h à 40h pour s'adapter à chaque profil. Le financement CPF peut couvrir tout ou partie de cette somme.",
+      "Nos formules débutent à 1 050€ pour 13h de conduite, code inclus. Nous proposons également des forfaits de 20h à 40h pour s'adapter à chaque profil. Le financement CPF peut couvrir tout ou partie de cette somme.",
   },
   {
     question: "Puis-je financer mon permis avec le CPF ?",
