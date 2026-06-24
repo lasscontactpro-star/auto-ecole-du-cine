@@ -15,7 +15,7 @@ export default function Equipe() {
           <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
             <Image
               src="/photos/20250417_135707.jpg"
-              alt="Équipe Auto École du Ciné Évreux — Emmanuelle et ses moniteurs"
+              alt="Équipe Auto École du Ciné Évreux — Emma et ses moniteurs"
               fill
               className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -28,7 +28,7 @@ export default function Equipe() {
               Une équipe passionnée à votre service
             </h2>
             <p className="text-[#555555] text-lg leading-relaxed mb-6">
-              Emmanuelle Saget et toute son équipe de moniteurs vous accueillent au 28 rue de l'Horloge à Évreux. Une auto-école de confiance, pas une usine à permis.
+              Emma Saget et toute son équipe de moniteurs vous accueillent au 28 rue de l'Horloge à Évreux. Une auto-école de confiance, pas une usine à permis.
             </p>
 
             <ul className="space-y-3 mb-8">

@@ -36,7 +36,7 @@ const placeholderReviews: Review[] = [
   {
     author_name: "Camille R.",
     rating: 5,
-    text: "Super auto-école ! Emmanuelle et son équipe sont très professionnels et à l'écoute. J'ai eu mon permis du premier coup grâce à leurs conseils.",
+    text: "Super auto-école ! Emma et son équipe sont très professionnels et à l'écoute. J'ai eu mon permis du premier coup grâce à leurs conseils.",
     relative_time_description: "il y a 2 mois",
   },
   {

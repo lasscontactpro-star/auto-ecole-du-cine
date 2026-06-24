@@ -198,7 +198,7 @@ export default function FormulesPage() {
       <section className="bg-[#2D2D2D] py-16 md:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Prêt à démarrer ?</h2>
-          <p className="text-gray-400 mb-8">Appelez Emmanuelle pour démarrer votre formation ou poser vos questions. Réponse rapide garantie.</p>
+          <p className="text-gray-400 mb-8">Appelez Emma pour démarrer votre formation ou poser vos questions. Réponse rapide garantie.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:0232392698"
