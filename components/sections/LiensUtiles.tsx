@@ -5,12 +5,26 @@ const liens = [
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
-    badge: "Résultats d'examen",
+    badge: "Résultats & convocations",
     title: "Mon espace candidat permis",
-    desc: "Consultez vos résultats d'examen, vos convocations et l'état de votre dossier sur le portail officiel de l'État.",
+    desc: "Consultez vos résultats d'examen (code et conduite), vos convocations et l'état de votre dossier.",
     cta: "Accéder à mon espace",
     href: "https://candidat.permisdeconduire.gouv.fr",
-    note: "Disponible pour tous les candidats au permis",
+    note: "Portail officiel de l'État",
+  },
+  {
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+        <rect x="2" y="3" width="20" height="14" rx="2" />
+        <path d="M8 21h8M12 17v4" />
+      </svg>
+    ),
+    badge: "Code de la route",
+    title: "Code en ligne",
+    desc: "Entraînez-vous au code de la route avec des séries officielles et préparez votre examen sereinement.",
+    cta: "S'entraîner au code",
+    href: "https://www.securite-routiere.gouv.fr/les-medias/apprendre-le-code-de-la-route",
+    note: "Sécurité Routière — Ministère de l'Intérieur",
   },
   {
     icon: (
@@ -54,7 +68,7 @@ export default function LiensUtiles() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {liens.map((l, i) => (
             <div
               key={i}
