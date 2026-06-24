@@ -67,7 +67,7 @@ export const faqs = [
   {
     question: "Combien de temps dure le permis en moyenne ?",
     answer:
-      "Comptez 3 à 8 mois selon votre rythme d'apprentissage et la fréquence de vos leçons. La conduite accompagnée permet souvent d'obtenir le permis plus rapidement grâce aux heures accumulées avant 17 ans.",
+      "Comptez 2 semaines à 8 mois selon votre rythme d'apprentissage et la fréquence de vos leçons. La conduite accompagnée permet souvent d'obtenir le permis plus rapidement grâce aux heures accumulées avant 17 ans.",
   },
   {
     question: "Quels documents apporter pour l'inscription ?",
