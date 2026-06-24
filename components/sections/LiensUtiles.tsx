@@ -19,10 +19,10 @@ const liens = [
         <path d="M8 21h8M12 17v4" />
       </svg>
     ),
-    badge: "Code de la route",
-    title: "Vérification des résultats code",
-    desc: "Vérifiez vos résultats à l'examen du code de la route sur le site officiel de l'ANTS.",
-    cta: "Vérifier mes résultats",
+    badge: "Permis de conduire",
+    title: "Demande de fabrication du permis",
+    desc: "Une fois votre permis obtenu, faites votre demande de fabrication du titre sur le site officiel de l'ANTS.",
+    cta: "Faire ma demande",
     href: "https://permisdeconduire.ants.gouv.fr",
     note: "Service ANTS — Agence Nationale des Titres Sécurisés",
   },
