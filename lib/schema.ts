@@ -62,7 +62,7 @@ export const faqs = [
   {
     question: "Proposez-vous des cours en boîte automatique ?",
     answer:
-      "Oui, nous proposons le Permis B en boîte manuelle et automatique, sur les mêmes tarifs. Nous disposons d'un Citroën C4 Cactus boîte automatique. Une passerelle boîte auto → manuelle est également disponible (7h = 500€).",
+      "Oui, nous proposons le Permis B en boîte manuelle et automatique, sur les mêmes tarifs. Nous disposons de 3 véhicules boîte automatique. Une passerelle boîte auto → manuelle est également disponible (7h = 500€).",
   },
   {
     question: "Combien de temps dure le permis en moyenne ?",
