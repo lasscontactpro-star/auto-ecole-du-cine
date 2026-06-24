@@ -2,9 +2,29 @@ import Image from "next/image";
 
 const photos = [
   {
-    src: "/photos/20250417_135707.jpg",
-    alt: "Équipe Auto École du Ciné Évreux devant les véhicules",
+    src: "/photos/vehicules-moniteurs.jpg",
+    alt: "Deux véhicules Auto École du Ciné devant l'école avec les moniteurs",
     className: "col-span-2 row-span-2",
+  },
+  {
+    src: "/photos/equipe-may-emma-benji-max.jpg",
+    alt: "Toute l'équipe : May, Emma, Benji et Max devant l'auto-école",
+    className: "col-span-2 row-span-1",
+  },
+  {
+    src: "/photos/lecon-conduite.jpg",
+    alt: "Leçon de conduite avec un moniteur de l'Auto École du Ciné",
+    className: "col-span-1 row-span-1",
+  },
+  {
+    src: "/photos/emma-bureau.jpg",
+    alt: "Emma Saget, gérante de l'Auto École du Ciné Évreux",
+    className: "col-span-1 row-span-1",
+  },
+  {
+    src: "/photos/eleve-fresque.jpg",
+    alt: "Élève devant la fresque murale de l'Auto École du Ciné",
+    className: "col-span-1 row-span-1",
   },
   {
     src: "/photos/20250814_130031.jpg",
@@ -19,11 +39,6 @@ const photos = [
   {
     src: "/photos/20221223_171546.jpg",
     alt: "Élève souriante devant la fresque Auto École du Ciné",
-    className: "col-span-1 row-span-1",
-  },
-  {
-    src: "/photos/entree-auto-ecole.png",
-    alt: "Entrée et couloir de l'Auto École du Ciné avec feux tricolore",
     className: "col-span-1 row-span-1",
   },
 ];
@@ -47,9 +62,7 @@ export default function Galerie() {
                 src={photo.src}
                 alt={photo.alt}
                 fill
-                className={`object-cover group-hover:scale-105 transition-transform duration-300 ${
-                  photo.src.includes("entree") ? "brightness-125" : ""
-                }`}
+                className="object-cover group-hover:scale-105 transition-transform duration-300"
                 sizes="(max-width: 768px) 50vw, 25vw"
                 loading="lazy"
               />
