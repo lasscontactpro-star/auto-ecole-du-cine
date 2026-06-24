@@ -26,7 +26,7 @@ const etapesCPF = [
   {
     num: "03",
     title: "Valider le dossier",
-    desc: "Complétez votre inscription en ligne. 11 jours de délai de rétractation obligatoire.",
+    desc: "Complétez votre inscription en ligne. 14 jours de délai de rétractation obligatoire.",
   },
   {
     num: "04",
