@@ -36,8 +36,8 @@ export const inclus = [
 
 export const inclusPlusAAC = [
   ...inclus,
-  "1 RDV préalable (3h)",
-  "2 RDV pédagogiques de 3h chacun",
+  "1 RDV préalable",
+  "2 RDV pédagogiques",
 ];
 
 export const optionsSupp = [
