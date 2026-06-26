@@ -2,14 +2,9 @@ import Image from "next/image";
 
 const photos = [
   {
-    src: "/photos/vehicules-moniteurs.jpg",
-    alt: "Deux véhicules Auto École du Ciné devant l'école avec les moniteurs",
+    src: "/photos/20250417_135707.jpg",
+    alt: "Équipe Auto École du Ciné Évreux devant les véhicules",
     className: "col-span-2 row-span-2",
-  },
-  {
-    src: "/photos/equipe-may-emma-benji-max.jpg",
-    alt: "Toute l'équipe : May, Emma, Benji et Max devant l'auto-école",
-    className: "col-span-2 row-span-1",
   },
   {
     src: "/photos/lecon-conduite.jpg",
