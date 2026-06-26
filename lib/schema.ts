@@ -75,11 +75,6 @@ export const faqs = [
       "CNI recto-verso, JDC (pour les 17-25 ans), e-photos conformes (fond blanc), justificatif de domicile de moins de 3 mois. Pour la conduite accompagnée, une autorisation parentale est requise.",
   },
   {
-    question: "Intervenez-vous dans les communes autour d'Évreux ?",
-    answer:
-      "Oui, nos moniteurs interviennent à Évreux et dans les communes voisines : Gravigny, Aviron, Arnières-sur-Iton, Angerville-la-Campagne. Contactez-nous pour confirmer votre secteur.",
-  },
-  {
     question: "Comment accéder à l'auto-école en transports en commun ?",
     answer:
       "Arrêt de bus Cathédrale - Hôtel de ville, à quelques minutes à pied. Un parking gratuit est disponible en face du bâtiment, au 28 rue de l'Horloge, 27000 Évreux.",
