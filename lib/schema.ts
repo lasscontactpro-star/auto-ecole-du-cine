@@ -57,7 +57,7 @@ export const faqs = [
   {
     question: "La conduite accompagnée est-elle disponible dès 15 ans ?",
     answer:
-      "Oui, nous proposons la conduite accompagnée (AAC) dès 15 ans, avec accord parental. L'apprenti est formé avec nous et conduit ensuite avec un accompagnateur agréé. Les formules AAC débutent à 1 250€ pour 17h de conduite.",
+      "Oui, nous proposons la conduite accompagnée (AAC) dès 15 ans, avec accord parental. L'apprenti est formé avec nous et conduit ensuite avec l'accompagnateur de son choix. Les formules AAC débutent à 1 250€ pour 17h de conduite.",
   },
   {
     question: "Proposez-vous des cours en boîte automatique ?",
