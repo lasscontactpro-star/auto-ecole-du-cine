@@ -2,6 +2,19 @@ const liens = [
   {
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+        <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+      </svg>
+    ),
+    badge: "Vérifications permis",
+    title: "Questions de vérifications",
+    desc: "Les 100 questions de vérifications posées le jour de l'examen pratique. À connaître avant de passer.",
+    cta: "Consulter les questions",
+    href: "https://drive.google.com/file/d/1eUgJgIVi1AoXZNlsqYZsHv7zWcA5MiQT/view",
+    note: "Document officiel — 100 questions d'examen",
+  },
+  {
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
@@ -68,7 +81,7 @@ export default function LiensUtiles() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {liens.map((l, i) => (
             <div
               key={i}
