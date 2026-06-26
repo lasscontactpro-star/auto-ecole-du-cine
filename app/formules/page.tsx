@@ -68,7 +68,10 @@ export default function FormulesPage() {
                         key={i}
                         className={`border-t border-gray-100 hover:bg-[#F5F5F5] transition-colors ${i === 0 ? "bg-[#FCE4F3]" : ""}`}
                       >
-                        <td className="px-5 py-3.5 font-semibold text-[#2D2D2D]">{t.heures}</td>
+                        <td className="px-5 py-3.5 text-[#2D2D2D]">
+                          <span className="font-semibold">{t.heures}</span>
+                          {t.note && <span className="ml-2 text-xs font-medium text-[#E91E8C] bg-[#FCE4F3] px-2 py-0.5 rounded-full">{t.note}</span>}
+                        </td>
                         <td className="px-5 py-3.5 text-right font-bold text-[#E91E8C] text-base">
                           {t.prix.toLocaleString("fr-FR")}€
                         </td>

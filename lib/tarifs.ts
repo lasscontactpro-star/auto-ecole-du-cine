@@ -6,7 +6,7 @@ export interface TarifItem {
 }
 
 export const tarifPermisB: TarifItem[] = [
-  { heures: "13h", prix: 1050 },
+  { heures: "13h", prix: 1050, note: "Code inclus" },
   { heures: "20h", prix: 1250 },
   { heures: "25h", prix: 1450 },
   { heures: "30h", prix: 1650 },
@@ -42,7 +42,7 @@ export const inclusPlusAAC = [
 ];
 
 export const optionsSupp = [
-  { label: "Avec code inclus", montant: "+100€" },
+  { label: "Avec code inclus (formules 20h+)", montant: "+100€" },
   { label: "Formule accélérée", montant: "+300€" },
   { label: "Leçon à l'heure", montant: "55€/h" },
 ];
