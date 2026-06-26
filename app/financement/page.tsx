@@ -50,7 +50,7 @@ const modes = [
     title: "Permis 1€ par Jour",
     desc: "L'État prend en charge les intérêts du prêt bancaire. Vous remboursez seulement le capital, sans avance de frais.",
     eligibilite: "Jeunes de 15 à 25 ans",
-    lien: { label: "En savoir plus (officiel)", href: "https://www.permis1euro.fr" },
+    lien: { label: "En savoir plus (officiel)", href: "https://www.securite-routiere.gouv.fr/je-suis/je-suis-candidat-au-permis-de-conduire/le-permis-a-1-euro-par-jour" },
   },
   {
     icon: "💳",
