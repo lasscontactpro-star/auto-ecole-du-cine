@@ -72,7 +72,7 @@ export const faqs = [
   {
     question: "Quels documents apporter pour l'inscription ?",
     answer:
-      "CNI recto-verso, JDC (pour les 17-25 ans), e-photos conformes (fond blanc), justificatif de domicile de moins de 3 mois. Pour la conduite accompagnée, une autorisation parentale est requise.",
+      "CNI recto-verso, attestation de recensement (pour les 16-17 ans), JDC (pour les 17-25 ans), e-photos conformes (fond blanc), justificatif de domicile de moins de 3 mois, permis de conduire si vous en possédez déjà un. Pour la conduite accompagnée, une autorisation parentale est également requise.",
   },
   {
     question: "Comment accéder à l'auto-école en transports en commun ?",
