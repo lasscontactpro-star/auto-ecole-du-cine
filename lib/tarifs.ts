@@ -6,7 +6,7 @@ export interface TarifItem {
 }
 
 export const tarifPermisB: TarifItem[] = [
-  { heures: "13h", prix: 1050, note: "Code inclus" },
+  { heures: "13h", prix: 1050, note: "Code en salle & en ligne inclus" },
   { heures: "20h", prix: 1250 },
   { heures: "25h", prix: 1450 },
   { heures: "30h", prix: 1650 },
