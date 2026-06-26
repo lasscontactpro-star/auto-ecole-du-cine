@@ -36,7 +36,7 @@ const liens = [
     title: "Code en ligne",
     desc: "Entraînez-vous au code de la route avec des séries officielles et préparez votre examen sereinement.",
     cta: "S'entraîner au code",
-    href: "https://www.securite-routiere.gouv.fr/je-suis/je-suis-candidat-au-permis-de-conduire/le-code-de-la-route",
+    href: "https://www.securite-routiere.gouv.fr/je-suis/je-suis-candidat-au-permis-de-conduire",
     note: "Sécurité Routière — Ministère de l'Intérieur",
   },
   {
