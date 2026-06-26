@@ -6,7 +6,7 @@ const formules = [
     title: "Permis B",
     desc: "Boîte manuelle ou automatique",
     price: "À partir de 1 050€",
-    sub: "13h de conduite · Code en option",
+    sub: "13h de conduite · Code inclus",
     href: "/formules",
     cta: "Voir le détail",
     highlight: true,
