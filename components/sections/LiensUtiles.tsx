@@ -36,7 +36,7 @@ const liens = [
     title: "Code en ligne",
     desc: "Entraînez-vous au code de la route avec des séries officielles et préparez votre examen sereinement.",
     cta: "S'entraîner au code",
-    href: "https://www.securite-routiere.gouv.fr/je-suis/je-suis-candidat-au-permis-de-conduire",
+    href: "https://auto-ecole.codesrousseau.fr/annuaire-auto-ecoles/evreux/auto-ecole-du-cine/31895",
     note: "Sécurité Routière — Ministère de l'Intérieur",
   },
   {
