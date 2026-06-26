@@ -33,7 +33,7 @@ export const inclus = [
   "Code en salle 6 mois inclus",
   "Code en ligne 6 mois inclus",
   "1 accompagnement à l'examen pratique",
-  "Leçons de conduite individuelles (jamais en doublette)",
+  "Leçon de conduite toujours individuelle, avec un enseignant",
 ];
 
 export const inclusPlusAAC = [
