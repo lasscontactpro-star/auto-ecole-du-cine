@@ -28,7 +28,7 @@ export default function Equipe() {
               Une équipe passionnée à votre service
             </h2>
             <p className="text-[#555555] text-lg leading-relaxed mb-6">
-              Emma Saget et toute son équipe de moniteurs vous accueillent au 28 rue de l'Horloge à Évreux. Une auto-école de confiance, pas une usine à permis.
+              Emma et toute son équipe de moniteurs vous accueillent au 28 rue de l'Horloge à Évreux. Une auto-école de confiance, pas une usine à permis.
             </p>
 
             <ul className="space-y-3 mb-8">

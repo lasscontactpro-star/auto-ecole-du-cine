@@ -13,7 +13,7 @@ const photos = [
   },
   {
     src: "/photos/emma-bureau.jpg",
-    alt: "Emma Saget, gérante de l'Auto École du Ciné Évreux",
+    alt: "Emma, gérante de l'Auto École du Ciné Évreux",
     className: "col-span-1 row-span-1",
   },
   {

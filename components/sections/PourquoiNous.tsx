@@ -8,7 +8,7 @@ const cards = [
       </svg>
     ),
     title: "Une équipe à l'écoute",
-    text: "Emma Saget et ses moniteurs vous accompagnent à chaque étape, avec patience et bienveillance.",
+    text: "Emma et ses moniteurs vous accompagnent à chaque étape, avec patience et bienveillance.",
   },
   {
     icon: (
