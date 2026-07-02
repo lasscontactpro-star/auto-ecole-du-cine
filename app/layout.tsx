@@ -14,13 +14,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.auto-ecole-cine-evreux.fr"),
+  metadataBase: new URL("https://autoecoleducine-evreux.com"),
   title: {
     template: "%s | Auto École du Ciné Évreux",
     default: "Auto École du Ciné Évreux | Permis B, AAC, CPF — 02 32 39 26 98",
   },
   description:
-    "Auto école à Évreux. Permis B, conduite accompagnée dès 15 ans, financement CPF et Permis 1€. Appelez le 02 32 39 26 98.",
+    "Auto école au centre d'Évreux (27000). Permis B dès 1 050€, conduite accompagnée dès 15 ans, financement CPF et Permis 1€/jour. 7 véhicules récents. ☎ 02 32 39 26 98.",
   openGraph: {
     siteName: "Auto École du Ciné Évreux",
     locale: "fr_FR",
@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+  },
+  alternates: {
+    canonical: "https://autoecoleducine-evreux.com",
   },
 };
 

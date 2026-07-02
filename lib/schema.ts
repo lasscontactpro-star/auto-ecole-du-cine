@@ -1,16 +1,34 @@
+const DOMAIN = "https://autoecoleducine-evreux.com";
+
 export const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "DrivingSchool",
+  "@id": `${DOMAIN}/#driving-school`,
   name: "Auto École du Ciné Évreux",
+  description:
+    "Auto école au centre d'Évreux (27000). Permis B, conduite accompagnée (AAC) dès 15 ans, boîte manuelle et automatique. Financement CPF, Permis 1€/jour, paiement 4x sans frais. 7 véhicules récents, leçons 100% individuelles.",
+  url: `${DOMAIN}/`,
+  telephone: "+33232392698",
+  email: "autoecoleducine@orange.fr",
+  priceRange: "€€",
+  currenciesAccepted: "EUR",
+  paymentAccepted: "Espèces, Carte bancaire, CPF, Permis 1€/jour, Virement",
+  image: `${DOMAIN}/photos/auto-ecole-du-cine-evreux.jpg`,
+  logo: `${DOMAIN}/photos/logo-detoure.png`,
+  hasMap: "https://maps.google.com/?q=28+Rue+de+l'Horloge,+27000+Évreux",
   address: {
     "@type": "PostalAddress",
     streetAddress: "28 rue de l'Horloge",
     addressLocality: "Évreux",
     postalCode: "27000",
+    addressRegion: "Normandie",
     addressCountry: "FR",
   },
-  telephone: "+33232392698",
-  url: "https://www.auto-ecole-cine-evreux.fr/",
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 49.0196,
+    longitude: 1.1503,
+  },
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
@@ -31,11 +49,16 @@ export const localBusinessSchema = {
       closes: "17:00",
     },
   ],
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: 49.0196,
-    longitude: 1.1503,
-  },
+  areaServed: [
+    { "@type": "City", name: "Évreux" },
+    { "@type": "City", name: "Gravigny" },
+    { "@type": "City", name: "Aviron" },
+    { "@type": "City", name: "Arnières-sur-Iton" },
+    { "@type": "City", name: "Angerville-la-Campagne" },
+    { "@type": "City", name: "Parville" },
+    { "@type": "City", name: "Gauville-la-Campagne" },
+    { "@type": "City", name: "Saint-Sébastien-de-Morsent" },
+  ],
   sameAs: [
     "https://www.facebook.com/autoecoleducine",
     "https://www.instagram.com/autoecole_du_cine_evreux",
@@ -93,3 +116,16 @@ export const faqSchema = {
     },
   })),
 };
+
+export function breadcrumbSchema(items: { name: string; url: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}

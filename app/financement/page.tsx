@@ -1,14 +1,20 @@
 import type { Metadata } from "next";
 import ContactRapide from "@/components/sections/ContactRapide";
 import LiensUtiles from "@/components/sections/LiensUtiles";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Financement Permis CPF, Permis 1€, France Travail",
+  title: "Financement Permis de Conduire Évreux — CPF, Permis 1€, France Travail",
   description:
-    "Financer votre permis à Évreux : CPF, Permis 1€/jour (15-25 ans), paiement 4x sans frais, aide France Travail. Auto École du Ciné Évreux — 02 32 39 26 98.",
+    "Financer votre permis à Évreux : CPF (jusqu'à 100%), Permis 1€/jour (15-25 ans), paiement 4x sans frais, aide France Travail. Auto École du Ciné Évreux — 02 32 39 26 98.",
+  alternates: {
+    canonical: "https://autoecoleducine-evreux.com/financement",
+  },
   openGraph: {
-    title: "Financement Permis — Auto École du Ciné Évreux",
-    description: "CPF, Permis 1€, France Travail, paiement 4x. Votre permis peut vous coûter 0€.",
+    title: "Financement Permis — CPF, Permis 1€, France Travail | Auto École du Ciné Évreux",
+    description:
+      "CPF jusqu'à 100%, Permis 1€/jour (15-25 ans), paiement 4x sans frais, aide France Travail. Votre permis peut vous coûter 0€.",
+    url: "https://autoecoleducine-evreux.com/financement",
   },
 };
 
@@ -63,7 +69,7 @@ const modes = [
   {
     icon: "🏢",
     badge: "Demandeurs d'emploi",
-    title: "Aide France Travail / France Travail",
+    title: "Aide France Travail",
     desc: "Si vous êtes inscrit à France Travail, des aides spécifiques au financement du permis existent pour favoriser votre retour à l'emploi.",
     eligibilite: "Inscrits à France Travail",
     lien: null,
@@ -71,8 +77,16 @@ const modes = [
 ];
 
 export default function FinancementPage() {
+  const crumbs = breadcrumbSchema([
+    { name: "Accueil", url: "https://autoecoleducine-evreux.com" },
+    { name: "Financement", url: "https://autoecoleducine-evreux.com/financement" },
+  ]);
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
       {/* Hero */}
       <section className="bg-[#E91E8C] py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">

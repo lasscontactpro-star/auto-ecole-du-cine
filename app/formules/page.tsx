@@ -8,20 +8,42 @@ import {
   inclusPlusAAC,
   optionsSupp,
 } from "@/lib/tarifs";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Formules & Tarifs Permis de Conduire Évreux",
+  title: "Formules & Tarifs Permis de Conduire Évreux 2025",
   description:
-    "Tous nos tarifs : Permis B dès 1 050€, conduite accompagnée (AAC) dès 1 250€, boîte manuelle et automatique. Financement CPF disponible. Auto École du Ciné Évreux.",
+    "Tarifs permis de conduire à Évreux : Permis B dès 1 050€ (13h, code inclus), conduite accompagnée AAC dès 1 250€. Boîte manuelle et automatique, même prix. CPF accepté. Auto École du Ciné.",
+  alternates: {
+    canonical: "https://autoecoleducine-evreux.com/formules",
+  },
   openGraph: {
-    title: "Formules & Tarifs Permis de Conduire — Auto École du Ciné Évreux",
-    description: "Tarifs clairs et transparents. Permis B, AAC, boîte auto. CPF accepté.",
+    title: "Formules & Tarifs Permis B Évreux 2025 — Auto École du Ciné",
+    description:
+      "Permis B dès 1 050€ (code inclus), AAC dès 1 250€. Boîte manuelle et automatique même prix. CPF accepté. Tarifs clairs sans surprise.",
+    url: "https://autoecoleducine-evreux.com/formules",
+    images: [
+      {
+        url: "/photos/lecon-conduite.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Leçon de conduite — Auto École du Ciné Évreux",
+      },
+    ],
   },
 };
 
 export default function FormulesPage() {
+  const crumbs = breadcrumbSchema([
+    { name: "Accueil", url: "https://autoecoleducine-evreux.com" },
+    { name: "Formules & Tarifs", url: "https://autoecoleducine-evreux.com/formules" },
+  ]);
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
       {/* Hero */}
       <section className="bg-[#2D2D2D] py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
