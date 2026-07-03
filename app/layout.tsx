@@ -32,6 +32,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://autoecoleducine-evreux.com",
   },
+  icons: {
+    icon: [
+      { url: "/photos/logo-detoure.png", type: "image/png" },
+    ],
+    apple: "/photos/logo-detoure.png",
+    shortcut: "/photos/logo-detoure.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
