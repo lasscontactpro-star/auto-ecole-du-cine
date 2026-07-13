@@ -1,5 +1,14 @@
 const DOMAIN = "https://autoecoleducine-evreux.com";
 
+export const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${DOMAIN}/#website`,
+  name: "Auto École du Ciné Évreux",
+  url: DOMAIN,
+  inLanguage: "fr-FR",
+};
+
 export const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "DrivingSchool",
