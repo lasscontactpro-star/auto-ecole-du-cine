@@ -102,6 +102,13 @@ export default function ContactRapide() {
               </a>
             </div>
 
+            <div>
+              <p className="text-gray-400 text-sm font-medium mb-2">Email</p>
+              <a href="mailto:autoecoleducine@orange.fr" className="text-white font-semibold text-base hover:text-[#E91E8C] transition-colors">
+                autoecoleducine@orange.fr
+              </a>
+            </div>
+
             <div className="w-12 h-px bg-white/10" />
 
             <div>

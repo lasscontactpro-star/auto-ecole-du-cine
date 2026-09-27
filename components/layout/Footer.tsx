@@ -19,9 +19,15 @@ export default function Footer() {
           </p>
           <a
             href="tel:0232392698"
-            className="mt-3 inline-block text-[#E91E8C] font-bold text-lg hover:text-[#f04dab] transition-colors"
+            className="mt-3 block text-[#E91E8C] font-bold text-lg hover:text-[#f04dab] transition-colors"
           >
             02 32 39 26 98
+          </a>
+          <a
+            href="mailto:autoecoleducine@orange.fr"
+            className="mt-1 block text-sm text-gray-300 hover:text-[#E91E8C] transition-colors"
+          >
+            autoecoleducine@orange.fr
           </a>
           <p className="mt-4 text-xs text-gray-500">
             Agrément E 22 027 0008 0<br />
